@@ -1,0 +1,16 @@
+{
+	"apps":[
+		{
+			"name" : "gulp_test_app",
+			"script" : "mian.js",
+			"env" : {
+				"NODE_ENV" : "development",
+				"PORT" : "6666"
+			},
+			"error_file":"./dd_crm_web-err.log",
+            "out_file":"./dd_crm_web-out.log",
+            "pid_file": "./dd_crm_web-pid.pid",
+            "log_date_format":"YYYY-MM-DD HH:mm Z"
+		}
+	]
+}
