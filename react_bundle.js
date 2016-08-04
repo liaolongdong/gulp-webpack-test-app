@@ -44,7 +44,7 @@
 /* 0 */
 /***/ function(module, exports, __webpack_require__) {
 
-	'use strict';
+	/* WEBPACK VAR INJECTION */(function(__dirname) {'use strict';
 
 	var _react = __webpack_require__(1);
 
@@ -61,10 +61,11 @@
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 	main();
-
+	console.log(__dirname);
 	function main() {
 		_reactDom2.default.render(_react2.default.createElement(_component2.default, null), document.getElementById('hello'));
 	}
+	/* WEBPACK VAR INJECTION */}.call(exports, "/"))
 
 /***/ },
 /* 1 */

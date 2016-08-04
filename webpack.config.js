@@ -1,4 +1,5 @@
 const webpack = require('webpack');
+const path = require('path');
 
 // module.exports = {
 // 	entry: './src/main.js',
@@ -59,6 +60,7 @@ const webpack = require('webpack');
 module.exports = {
 	entry: './hello_world_main.js',
 	output: {
+		path: path.resolve(__dirname),
 		filename: 'react_bundle.js'
 	},
 	module: {

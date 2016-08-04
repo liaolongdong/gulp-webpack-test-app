@@ -5,7 +5,8 @@
   "main": "main.js",
   "scripts": {
     "test": "gulpTest",
-    "compile": "gulp default"
+    "compile": "gulp default",
+    "dev": "webpack-dev-server --devtool eval --progress --colors --hot --content-base build"
   },
   "author": "",
   "license": "ISC",
